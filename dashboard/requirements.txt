@@ -1,0 +1,7 @@
+dash
+plotly
+plotly-resampler
+flask
+pandas
+numpy
+gunicorn

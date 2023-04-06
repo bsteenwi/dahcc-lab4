@@ -1,0 +1,7 @@
+services:
+  web:
+    build: ./dashboard
+    ports:
+      - "8000:8000"
+  produce:
+    build: ./producer
