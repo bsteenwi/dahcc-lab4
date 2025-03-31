@@ -16,5 +16,5 @@ while True:
         payload['time'] = time.time_ns()
         data = {}
         data['payload'] = [payload]
-        r = requests.post('http://web:8000/data', json=data)
+        r = requests.post('http://consumer:8000/data', json=data)
         time.sleep(0.03125)
